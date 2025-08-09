@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+    <title>Desktop Success</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../font/fonts.css">
+    <script src="../src/desktop-success.js" defer></script>
+</head>
+<body>
+    <main class="roboto bg-[hsl(235,18%,26%)]">
+        <section class="flex justify-center pt-44 pb-80 shadow-2xs">
+            <section class="bg-white rounded-4xl sm:p-11 lg:p-14 grid gap-7">
+                <img src="../assets/images/icon-success.svg" alt="icon-success">
+                <h1 class="text-[clamp(2.3rem,2.8vw,10rem)] font-bold text-[hsl(234,29%,20%)] sm:leading-11 2xl:leading-16">Thanks for<br>
+                    subscribing!</h1>
+                <p class="text-[clamp(1rem,0.9vw,10rem)] text-[hsl(234,29%,20%)] font-normal">A confirmation email has been sent to<br>
+                    <b data-js-desktop-succes-email></b>. Please open it and click<br>
+                    the button inside to confirm your subscription.</p>
+                <button type="button" class="bg-[hsl(234,29%,20%)] text-white rounded-lg py-3 cursor-pointer text-[clamp(0.9rem,0.9vw,10rem)]
+                hover:bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 
+                transition-all duration-300 shadow-lg ease-in-out" data-js-button-return>Dismiss message</button>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
